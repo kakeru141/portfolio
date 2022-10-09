@@ -24,7 +24,7 @@ const Modal: FC<P> = ({ children, src, title }) => {
                 {children}
             </Overlay>
             <div className={style.container}>
-                <Typography fontStyle="p2" component="h3">
+                <Typography component="h3">
                     {title}
                 </Typography>
                 <div className={style.button}>
