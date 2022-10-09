@@ -1,0 +1,7 @@
+@use '../../styles//var.scss' as var;
+
+.paper {
+    background: #fff;
+    border-radius: 4px;
+    box-shadow: 0 4px 16px -4px var.$gray-dark;
+}

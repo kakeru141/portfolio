@@ -1,0 +1,12 @@
+.contact {
+    margin-top: 30vh;
+
+    form {
+        display: flex;
+        flex-direction: column;
+
+        .message {
+            margin: 10px 0;
+        }
+    }
+}

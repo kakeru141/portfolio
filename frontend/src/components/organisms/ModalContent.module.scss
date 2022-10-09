@@ -1,0 +1,16 @@
+@use '../../styles/var.scss' as var;
+
+.url {
+
+    &:hover {
+        color: var.$second-main;
+    }
+}
+.content {
+    width: 90%;
+    margin: 20px auto;
+    p{
+        text-align: left;
+    }
+
+}

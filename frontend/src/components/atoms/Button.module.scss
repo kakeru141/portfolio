@@ -1,0 +1,16 @@
+@use '../../styles/var.scss' as var;
+
+.button {
+    color: #fff;
+    padding: 5px 15px;
+    border-radius: 4px;
+    appearance: none;
+
+    background: var.$second-main;
+    border: none;
+    transition: .2s;
+
+    &:hover{
+        background: var.$second-dark;
+    }
+}
