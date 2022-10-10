@@ -13,7 +13,7 @@ const Works: FC = () => {
                 </Typography>
             </div>
             <div className={style.contents}>
-                <Work title="スタバのトッピング計算" src="/starbacks.png">
+                <Work title="スタバのトッピング計算" src="/starbucks.png">
                     <ModalContent
                         title="スタバのトッピング計算"
                         techs={[
