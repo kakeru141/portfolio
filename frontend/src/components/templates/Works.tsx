@@ -13,9 +13,115 @@ const Works: FC = () => {
                 </Typography>
             </div>
             <div className={style.contents}>
+                <Work title="ドルコスト平均法計算" src="/dca-calc.png">
+                    <ModalContent
+                        title="ドルコスト平均法計算サイト"
+                        techs={[
+                            'NEXT.js',
+                            'TypeScript',
+                            'Sass',
+                            'chart.js',
+                            'Redux',
+                        ]}
+                        url="https://starbucks-topping-calc.onrender.com"
+                        overview={
+                            <ul>
+                                <li>
+                                    <Typography>
+                                        資産運用の手法の1つである、ドルコスト平均法の計算をおこなう。
+                                    </Typography>
+                                </li>
+                                <li>
+                                    <Typography>
+                                        フォームに運用期間、月の入金額、年利回りを入力すると、計算結果をグラフで表示される。
+                                    </Typography>
+                                </li>
+                            </ul>
+                        }
+                        theme={
+                            <Typography>
+                                初めて公開したサイトのためHTMLをはじめ、あらゆる部分に改善余地がある。
+                            </Typography>
+                        }
+                        study={
+                            <ul>
+                                <li>
+                                    <Typography>
+                                        使用技術全般の基礎。
+                                    </Typography>
+                                </li>
+                                <li>
+                                    <Typography>
+                                        ライブラリの使用方法。
+                                    </Typography>
+                                </li>
+                                <li>
+                                    <Typography>
+                                        デプロイの経験ができた。
+                                    </Typography>
+                                </li>
+                            </ul>
+                        }
+                    />
+                </Work>
+
+                <Work title="jamstackブログデモ" src="/blog.png">
+                    <ModalContent
+                        title="jamstackブログデモ"
+                        techs={['NEXT.js', 'TypeScript', 'MUI', 'microCMS']}
+                        url="https://starbucks-topping-calc.onrender.com"
+                        overview={
+                            <ul>
+                                <li>
+                                    <Typography>
+                                        自身のアウトプット用に制作したブログサイト。
+                                    </Typography>
+                                </li>
+                                <li>
+                                    <Typography>
+                                        NEXT.jsとmicroCMSを使ったjamstackブログ。
+                                    </Typography>
+                                </li>
+                                <li>
+                                    <Typography>
+                                        デザインはWordPressテーマ「THE・THOR」を参考に作成。
+                                    </Typography>
+                                </li>
+                            </ul>
+                        }
+                        theme={
+                            <ul>
+                                <li>
+                                    <Typography>
+                                        ブログを作ったはいいが、現状プログラミング学習に手一杯で記事の投稿ができていない。
+                                    </Typography>
+                                </li>
+                                <li>
+                                    <Typography>
+                                        カテゴリーメニューなど、サイドバーに追加すべきものが多くある
+                                    </Typography>
+                                </li>
+                            </ul>
+                        }
+                        study={
+                            <ul>
+                                <li>
+                                    <Typography>
+                                        余白のとりかたなど、デザイン面で得るものが大きかった。
+                                    </Typography>
+                                </li>
+                                <li>
+                                    <Typography>
+                                        jamstackの概念が学べた。
+                                    </Typography>
+                                </li>
+                            </ul>
+                        }
+                    />
+                </Work>
                 <Work title="スタバのトッピング計算" src="/starbucks.png">
                     <ModalContent
-                        title="スタバのトッピング計算"
+                        title="スタバのトッピング計算サイト"
                         techs={[
                             'NEXT.js',
                             'TypeScript',
@@ -29,7 +135,7 @@ const Works: FC = () => {
                             <ul>
                                 <li>
                                     <Typography>
-                                        スターバックスのトッピングを選ぶと、価格の算出、疑似的な明細の作成をします。
+                                        スターバックスのトッピングを選ぶと、価格の算出、疑似的な明細が作成される。
                                     </Typography>
                                 </li>
                                 <li>
@@ -89,111 +195,6 @@ const Works: FC = () => {
                         }
                     />
                 </Work>
-                <Work title="jamstackブログデモ" src="/blog.png">
-                    <ModalContent
-                        title="jamstackブログデモ"
-                        techs={['NEXT.js', 'TypeScript', 'MUI', 'microCMS']}
-                        url="https://starbucks-topping-calc.onrender.com"
-                        overview={
-                            <ul>
-                                <li>
-                                    <Typography>
-                                        自身のアウトプット用に制作したブログサイト。
-                                    </Typography>
-                                </li>
-                                <li>
-                                    <Typography>
-                                        NEXT.jsとmicroCMSを使ったjamstackブログ。
-                                    </Typography>
-                                </li>
-                                <li>
-                                    <Typography>
-                                        デザインはWordPressテーマ「THE・THOR」を参考に作成。
-                                    </Typography>
-                                </li>
-                            </ul>
-                        }
-                        theme={
-                            <ul>
-                                <li>
-                                    <Typography>
-                                        ブログを作ったはいいが、現状プログラミング学習に手一杯で記事の投稿ができていない。
-                                    </Typography>
-                                </li>
-                                <li>
-                                    <Typography>
-                                        カテゴリーメニューなど、サイドバーに追加すべきものが多くある
-                                    </Typography>
-                                </li>
-                            </ul>
-                        }
-                        study={
-                            <ul>
-                                <li>
-                                    <Typography>
-                                        余白のとりかたなど、デザイン面で得るものが大きかった。
-                                    </Typography>
-                                </li>
-                                <li>
-                                    <Typography>
-                                        jamstackの概念が学べた。
-                                    </Typography>
-                                </li>
-                            </ul>
-                        }
-                    />
-                </Work>
-                <Work title="ドルコスト平均法計算サイト" src="/dca-calc.png">
-                    <ModalContent
-                        title="ドルコスト平均法計算サイト"
-                        techs={[
-                            'NEXT.js',
-                            'TypeScript',
-                            'Sass',
-                            'chart.js',
-                            'Redux',
-                        ]}
-                        url="https://starbucks-topping-calc.onrender.com"
-                        overview={
-                            <ul>
-                                <li>
-                                    <Typography>
-                                        資産運用の手法の1つである、ドルコスト平均法の計算をおこなう。
-                                    </Typography>
-                                </li>
-                                <li>
-                                    <Typography>
-                                        フォームに運用期間、月の入金額、年利回りを入力すると、計算結果をグラフで表示する。
-                                    </Typography>
-                                </li>
-                            </ul>
-                        }
-                        theme={
-                            <Typography>
-                                初めて公開したサイトのためHTMLをはじめ、あらゆる部分に改善余地がある。
-                            </Typography>
-                        }
-                        study={
-                            <ul>
-                                <li>
-                                    <Typography>
-                                        使用技術全般の基礎。
-                                    </Typography>
-                                </li>
-                                <li>
-                                    <Typography>
-                                        ライブラリの使用方法。
-                                    </Typography>
-                                </li>
-                                <li>
-                                    <Typography>
-                                        デプロイの経験ができた。
-                                    </Typography>
-                                </li>
-                            </ul>
-                        }
-                    />
-                </Work>
                 <Work title="ポートフォリオサイト" src="/portfolio.png">
                     <ModalContent
                         title="ポートフォリオサイト"
@@ -224,7 +225,20 @@ const Works: FC = () => {
                                 技術の幅が広がりしだい、機能を追加していきたい。
                             </Typography>
                         }
-                        study={<Typography>Dart Sassの使いかた。</Typography>}
+                        study={
+                            <ul>
+                                <li>
+                                    <Typography>
+                                        Dart Sassの使用方法。
+                                    </Typography>
+                                </li>
+                                <li>
+                                    <Typography>
+                                        TypeScriptのコンパイル、ビルド周りの知識が深まった。
+                                    </Typography>
+                                </li>
+                            </ul>
+                        }
                     />
                 </Work>
             </div>

@@ -1,156 +1,155 @@
 .portfolio {
-  font-family: "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", sans-serif;
-  text-align: center;
-  background: linear-gradient(
-    150deg,
-    #fff 20vh,
-    #E1F5FE 40vh,
-    #E1F5FE 43vh,
-    #FCE4EC 60vh,
-    #FCE4EC 63vh,
-    #fff 80vh,
-    #fff calc(20vh + 150vh),
-    #E1F5FE calc(40vh + 150vh),
-    #E1F5FE calc(43vh + 150vh),
-    #FCE4EC calc(60vh + 150vh),
-    #FCE4EC calc(63vh + 150vh),
-    #fff calc(80vh + 150vh),
-    #fff calc(20vh + 300vh),
-    #E1F5FE calc(40vh + 300vh),
-    #E1F5FE calc(43vh + 300vh),
-    #FCE4EC calc(60vh + 300vh),
-    #FCE4EC calc(63vh + 300vh),
-    #fff calc(80vh + 300vh),
-    #fff calc(20vh + 450vh),
-    #E1F5FE calc(40vh + 450vh),
-    #E1F5FE calc(43vh + 450vh),
-    #FCE4EC calc(60vh + 450vh),
-    #FCE4EC calc(63vh + 450vh),
-    #fff calc(80vh + 450vh),
-    #fff calc(20vh + 600vh),
-    #E1F5FE calc(40vh + 600vh),
-    #E1F5FE calc(43vh + 600vh),
-    #FCE4EC calc(60vh + 600vh),
-    #FCE4EC calc(63vh + 600vh),
-    #fff calc(80vh + 600vh),
-    #fff calc(20vh + 750vh),
-    #E1F5FE calc(40vh + 750vh),
-    #E1F5FE calc(43vh + 750vh),
-    #FCE4EC calc(60vh + 750vh),
-    #FCE4EC calc(63vh + 750vh),
-    #fff calc(80vh + 750vh),
-    #fff calc(20vh + 900vh),
-    #E1F5FE calc(40vh + 900vh),
-    #E1F5FE calc(43vh + 900vh),
-    #FCE4EC calc(60vh + 900vh),
-    #FCE4EC calc(63vh + 900vh),
-    #fff calc(80vh + 900vh),
-    #fff calc(20vh + 1050vh),
-    #E1F5FE calc(40vh + 1050vh),
-    #E1F5FE calc(43vh + 1050vh),
-    #FCE4EC calc(60vh + 1050vh),
-    #FCE4EC calc(63vh + 1050vh),
-    #fff calc(80vh + 1050vh),
-    #fff calc(20vh + 1200vh),
-    #E1F5FE calc(40vh + 1200vh),
-    #E1F5FE calc(43vh + 1200vh),
-    #FCE4EC calc(60vh + 1200vh),
-    #FCE4EC calc(63vh + 1200vh),
-    #fff calc(80vh + 1200vh),
-    #fff calc(20vh + 1350vh),
-    #E1F5FE calc(40vh + 1350vh),
-    #E1F5FE calc(43vh + 1350vh),
-    #FCE4EC calc(60vh + 1350vh),
-    #FCE4EC calc(63vh + 1350vh),
-    #fff calc(80vh + 1350vh),
-    #fff calc(20vh + 1500vh),
-    #E1F5FE calc(40vh + 1500vh),
-    #E1F5FE calc(43vh + 1500vh),
-    #FCE4EC calc(60vh + 1500vh),
-    #FCE4EC calc(63vh + 1500vh),
-    #fff calc(80vh + 1500vh),
-    #fff calc(20vh + 1650vh),
-    #E1F5FE calc(40vh + 1650vh),
-    #E1F5FE calc(43vh + 1650vh),
-    #FCE4EC calc(60vh + 1650vh),
-    #FCE4EC calc(63vh + 1650vh),
-    #fff calc(80vh + 1650vh),
-    #fff calc(20vh + 1800vh),
-    #E1F5FE calc(40vh + 1800vh),
-    #E1F5FE calc(43vh + 1800vh),
-    #FCE4EC calc(60vh + 1800vh),
-    #FCE4EC calc(63vh + 1800vh),
-    #fff calc(80vh + 1800vh),
-    #fff calc(20vh + 1950vh),
-    #E1F5FE calc(40vh + 1950vh),
-    #E1F5FE calc(43vh + 1950vh),
-    #FCE4EC calc(60vh + 1950vh),
-    #FCE4EC calc(63vh + 1950vh),
-    #fff calc(80vh + 1950vh),
-    #fff calc(20vh + 2100vh),
-    #E1F5FE calc(40vh + 2100vh),
-    #E1F5FE calc(43vh + 2100vh),
-    #FCE4EC calc(60vh + 2100vh),
-    #FCE4EC calc(63vh + 2100vh),
-    #fff calc(80vh + 2100vh),
-    #fff calc(20vh + 2250vh),
-    #E1F5FE calc(40vh + 2250vh),
-    #E1F5FE calc(43vh + 2250vh),
-    #FCE4EC calc(60vh + 2250vh),
-    #FCE4EC calc(63vh + 2250vh),
-    #fff calc(80vh + 2250vh),
-    #fff calc(20vh + 2400vh),
-    #E1F5FE calc(40vh + 2400vh),
-    #E1F5FE calc(43vh + 2400vh),
-    #FCE4EC calc(60vh + 2400vh),
-    #FCE4EC calc(63vh + 2400vh),
-    #fff calc(80vh + 2400vh),
-    #fff calc(20vh + 2550vh),
-    #E1F5FE calc(40vh + 2550vh),
-    #E1F5FE calc(43vh + 2550vh),
-    #FCE4EC calc(60vh + 2550vh),
-    #FCE4EC calc(63vh + 2550vh),
-    #fff calc(80vh + 2550vh)
+    font-family: '游ゴシック体', YuGothic, '游ゴシック Medium',
+        'Yu Gothic Medium', '游ゴシック', 'Yu Gothic', sans-serif;
+    text-align: center;
+    background: linear-gradient(
+        150deg,
+        #fff 20vh,
+        #e1f5fe 40vh,
+        #e1f5fe 43vh,
+        #fce4ec 60vh,
+        #fce4ec 63vh,
+        #fff 80vh,
+        #fff calc(20vh + 150vh),
+        #e1f5fe calc(40vh + 150vh),
+        #e1f5fe calc(43vh + 150vh),
+        #fce4ec calc(60vh + 150vh),
+        #fce4ec calc(63vh + 150vh),
+        #fff calc(80vh + 150vh),
+        #fff calc(20vh + 300vh),
+        #e1f5fe calc(40vh + 300vh),
+        #e1f5fe calc(43vh + 300vh),
+        #fce4ec calc(60vh + 300vh),
+        #fce4ec calc(63vh + 300vh),
+        #fff calc(80vh + 300vh),
+        #fff calc(20vh + 450vh),
+        #e1f5fe calc(40vh + 450vh),
+        #e1f5fe calc(43vh + 450vh),
+        #fce4ec calc(60vh + 450vh),
+        #fce4ec calc(63vh + 450vh),
+        #fff calc(80vh + 450vh),
+        #fff calc(20vh + 600vh),
+        #e1f5fe calc(40vh + 600vh),
+        #e1f5fe calc(43vh + 600vh),
+        #fce4ec calc(60vh + 600vh),
+        #fce4ec calc(63vh + 600vh),
+        #fff calc(80vh + 600vh),
+        #fff calc(20vh + 750vh),
+        #e1f5fe calc(40vh + 750vh),
+        #e1f5fe calc(43vh + 750vh),
+        #fce4ec calc(60vh + 750vh),
+        #fce4ec calc(63vh + 750vh),
+        #fff calc(80vh + 750vh),
+        #fff calc(20vh + 900vh),
+        #e1f5fe calc(40vh + 900vh),
+        #e1f5fe calc(43vh + 900vh),
+        #fce4ec calc(60vh + 900vh),
+        #fce4ec calc(63vh + 900vh),
+        #fff calc(80vh + 900vh),
+        #fff calc(20vh + 1050vh),
+        #e1f5fe calc(40vh + 1050vh),
+        #e1f5fe calc(43vh + 1050vh),
+        #fce4ec calc(60vh + 1050vh),
+        #fce4ec calc(63vh + 1050vh),
+        #fff calc(80vh + 1050vh),
+        #fff calc(20vh + 1200vh),
+        #e1f5fe calc(40vh + 1200vh),
+        #e1f5fe calc(43vh + 1200vh),
+        #fce4ec calc(60vh + 1200vh),
+        #fce4ec calc(63vh + 1200vh),
+        #fff calc(80vh + 1200vh),
+        #fff calc(20vh + 1350vh),
+        #e1f5fe calc(40vh + 1350vh),
+        #e1f5fe calc(43vh + 1350vh),
+        #fce4ec calc(60vh + 1350vh),
+        #fce4ec calc(63vh + 1350vh),
+        #fff calc(80vh + 1350vh),
+        #fff calc(20vh + 1500vh),
+        #e1f5fe calc(40vh + 1500vh),
+        #e1f5fe calc(43vh + 1500vh),
+        #fce4ec calc(60vh + 1500vh),
+        #fce4ec calc(63vh + 1500vh),
+        #fff calc(80vh + 1500vh),
+        #fff calc(20vh + 1650vh),
+        #e1f5fe calc(40vh + 1650vh),
+        #e1f5fe calc(43vh + 1650vh),
+        #fce4ec calc(60vh + 1650vh),
+        #fce4ec calc(63vh + 1650vh),
+        #fff calc(80vh + 1650vh),
+        #fff calc(20vh + 1800vh),
+        #e1f5fe calc(40vh + 1800vh),
+        #e1f5fe calc(43vh + 1800vh),
+        #fce4ec calc(60vh + 1800vh),
+        #fce4ec calc(63vh + 1800vh),
+        #fff calc(80vh + 1800vh),
+        #fff calc(20vh + 1950vh),
+        #e1f5fe calc(40vh + 1950vh),
+        #e1f5fe calc(43vh + 1950vh),
+        #fce4ec calc(60vh + 1950vh),
+        #fce4ec calc(63vh + 1950vh),
+        #fff calc(80vh + 1950vh),
+        #fff calc(20vh + 2100vh),
+        #e1f5fe calc(40vh + 2100vh),
+        #e1f5fe calc(43vh + 2100vh),
+        #fce4ec calc(60vh + 2100vh),
+        #fce4ec calc(63vh + 2100vh),
+        #fff calc(80vh + 2100vh),
+        #fff calc(20vh + 2250vh),
+        #e1f5fe calc(40vh + 2250vh),
+        #e1f5fe calc(43vh + 2250vh),
+        #fce4ec calc(60vh + 2250vh),
+        #fce4ec calc(63vh + 2250vh),
+        #fff calc(80vh + 2250vh),
+        #fff calc(20vh + 2400vh),
+        #e1f5fe calc(40vh + 2400vh),
+        #e1f5fe calc(43vh + 2400vh),
+        #fce4ec calc(60vh + 2400vh),
+        #fce4ec calc(63vh + 2400vh),
+        #fff calc(80vh + 2400vh),
+        #fff calc(20vh + 2550vh),
+        #e1f5fe calc(40vh + 2550vh),
+        #e1f5fe calc(43vh + 2550vh),
+        #fce4ec calc(60vh + 2550vh),
+        #fce4ec calc(63vh + 2550vh),
+        #fff calc(80vh + 2550vh)
     );
 }
 html {
-  scroll-behavior: smooth;
+    scroll-behavior: smooth;
 }
 html,
 body {
-  font-size: 8px;
-  padding: 0;
-  margin: 0;
+    font-size: 8px;
+    padding: 0;
+    margin: 0;
 }
 main {
-  max-width: 600px;
-  margin: 0 auto;
-  padding: 30px;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 30px;
 }
 a {
-  color: inherit;
-  text-decoration: none;
+    color: inherit;
+    text-decoration: none;
 }
 ul {
-  padding: 0;
-  margin: 0;
+    padding: 0;
+    margin: 0;
 }
 li {
-  list-style: none;
+    list-style: none;
 }
 
 * {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 @media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
-  }
+    html {
+        color-scheme: dark;
+    }
+    body {
+        color: white;
+        background: black;
+    }
 }
-
-

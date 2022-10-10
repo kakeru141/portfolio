@@ -1,11 +1,11 @@
-$light-color: #9575CD;
-$main-color: #673AB7;
-$dark-color: #4527A0;
-$second-light: #90CAF9;
-$second-main: #42A5F5;
-$second-dark: #1E88E5;
+$light-color: #9575cd;
+$main-color: #673ab7;
+$dark-color: #4527a0;
+$second-light: #90caf9;
+$second-main: #42a5f5;
+$second-dark: #1e88e5;
 $gray-light: #eee;
-$gray-main: #BDBDBD;
+$gray-main: #bdbdbd;
 $gray-dark: #757575;
 
 $tab: 600px;
@@ -13,6 +13,6 @@ $pc: 1025px;
 
 @mixin mq($bp) {
     @media screen and (min-width: $bp) {
-        @content
+        @content;
     }
 }

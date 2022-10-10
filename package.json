@@ -8,7 +8,7 @@
     "dev": "ts-node src/server.ts",
     "build": "tsc",
     "start": "node dist/server.js",
-    "format": "prettier --write ./src/**/*.{ts,tsx}"
+    "format": "prettier --write ./frontend/**/*.{ts,tsx,scss,css}"
   },
   "repository": {
     "type": "git",

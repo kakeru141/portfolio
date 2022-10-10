@@ -3,9 +3,8 @@
 .menus {
     display: flex;
     justify-content: space-between;
-    
+
     @include var.mq(var.$tab) {
         margin: auto 0 0 auto;
-
     }
 }

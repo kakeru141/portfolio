@@ -6,22 +6,20 @@
     height: 140px;
     width: 100%;
     max-width: var.$tab;
-    transition: .2s;
+    transition: 0.2s;
     margin: 5px auto;
     &.error {
         textarea {
             border: 1px solid #f00;
         }
     }
-    
-    
+
     &.active {
         textarea {
             border: 1px solid var.$second-main;
-            &:hover{
+            &:hover {
                 border: 1px solid var.$second-main;
-                    
-                }
+            }
         }
         label {
             border-radius: 4px;
@@ -30,11 +28,10 @@
             font-size: 1em;
             left: 5px;
             background: #fff;
-
         }
     }
-    
-    textarea{
+
+    textarea {
         border: 1px solid var.$gray-main;
         border-radius: 4px;
         position: absolute;
@@ -44,17 +41,17 @@
         padding: 5px 10px;
         width: 100%;
         outline: none;
-        transition: .2s;
+        transition: 0.2s;
         &:hover {
             border: 1px solid #000;
         }
     }
-    label{
+    label {
         position: absolute;
         top: 4px;
         font-size: 2em;
         left: 20px;
         color: var.$gray-dark;
-        transition: .2s;
+        transition: 0.2s;
     }
 }

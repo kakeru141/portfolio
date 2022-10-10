@@ -2,18 +2,17 @@
 
 .header {
     // width: 100%;
-    
+
     background: #fff;
     position: fixed;
     opacity: 0.8;
     width: 100%;
     nav {
-
         margin: auto;
         display: flex;
         flex-direction: column;
         max-width: var.$pc;
-    
+
         @include var.mq(var.$tab) {
             flex-direction: row;
         }
