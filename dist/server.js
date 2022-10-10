@@ -22,7 +22,7 @@ mail_1.default.setApiKey(process.env.SG_KEY || '');
 const app = (0, express_1.default)();
 const port = process.env.PORT || 5000;
 app.use(express_1.default.json());
-app.use(express_1.default.static(path_1.default.join(__dirname, '../frontend/build')));
+app.use(express_1.default.static(path_1.default.join(__dirname, './build')));
 app.post('/api/contact', (req, res) => {
     if (req.method === 'POST') {
         const clientMsg = {
@@ -59,6 +59,6 @@ app.post('/api/contact', (req, res) => {
     res.status(200);
 });
 app.get('*', (req, res) => {
-    res.sendFile(path_1.default.join(__dirname, '../frontend/build/index.html'));
+    res.sendFile(path_1.default.join(__dirname, './build/index.html'));
 });
 app.listen(port, () => console.log(`server run ${port}`));
