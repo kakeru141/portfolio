@@ -23,7 +23,7 @@ const Works: FC = () => {
                             'chart.js',
                             'Redux',
                         ]}
-                        url="https://starbucks-topping-calc.onrender.com"
+                        url="https://dca-calc.vercel.app"
                         overview={
                             <ul>
                                 <li>
@@ -69,7 +69,7 @@ const Works: FC = () => {
                     <ModalContent
                         title="jamstackブログデモ"
                         techs={['NEXT.js', 'TypeScript', 'MUI', 'microCMS']}
-                        url="https://starbucks-topping-calc.onrender.com"
+                        url="https://tech-blog-kakeru141.vercel.app"
                         overview={
                             <ul>
                                 <li>
@@ -205,7 +205,7 @@ const Works: FC = () => {
                             'Express',
                             'Dart Sass',
                         ]}
-                        url="https://starbucks-topping-calc.onrender.com"
+                        url="https://sendo-portfolio.onrender.com"
                         overview={
                             <ul>
                                 <li>
